@@ -1,0 +1,118 @@
+body{
+  font-family: sans-serif;
+  color: rgb(109, 109, 109);
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.left-div-cont {
+  position: absolute;
+  border: 1px solid red;
+  width: 55%;
+  right: 46%;
+  margin: auto;
+}
+
+.right-div-cont {
+  position: absolute;
+  border: none;
+  width: 45%;
+  left: 54%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-left: 82px;
+  margin-bottom: 15px;
+}
+
+span {
+  display: block;
+  background-color: rgb(171 11 75);
+  border: 1px solid rgb(171 11 75);
+  height: 3px;
+  width: 40px;
+  margin-left: 84px;
+  margin-bottom: 32px;
+}
+
+.logo {
+  position: relative;
+  margin-left: 82px;
+  margin-top: 40px;
+}
+
+.license {
+  position: absolute;
+  right: 56%;
+  top: 0;
+  margin-left: 55px;
+  font-size: 15px;
+}
+
+.cbn {
+  position: absolute;
+  top: 19%;
+  right: 48%;
+}
+
+.welcome {
+  position: relative;
+  margin-top: 30px;
+}
+
+form {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.email {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+
+.password {
+  display: grid;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  width: 70%;
+  margin: auto;
+  margin-top: 35px;
+}
+
+.forgot-pass {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-decoration: none;
+  color: #ab2656;
+}
+
+input {
+  height: 44px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.submit {
+  width: 70%;
+  height: 40px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  align-self: center;
+  background-color: #ab2656;
+  color: white;
+  margin-top: 30px;
+}
+
+p {
+  text-align: center;
+}
