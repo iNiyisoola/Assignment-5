@@ -6,11 +6,19 @@ body{
 }
 
 .left-div-cont {
+  display: flex;
   position: absolute;
-  border: 1px solid red;
+  border: none;
   width: 55%;
+  height: 100%;
   right: 46%;
   margin: auto;
+}
+
+.static-img {
+  position: relative;
+  width: 100%;
+  border-image-slice: 100%;
 }
 
 .right-div-cont {
