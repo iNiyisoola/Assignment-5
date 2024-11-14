@@ -184,7 +184,14 @@ input {
   height: 44px;
   border: 1px solid rgb(216, 216, 216);
   border-radius: 5px;
-  margin-top: 10px;
+  margin-top: 10px; 
+}
+
+.password-logo {
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+  margin-right: 10px;
 }
 
 .submit {
