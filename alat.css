@@ -25,7 +25,7 @@ body{
 .left-div {
   display: block;
   position: absolute;
-  top: 70%;
+  top: 60%;
   left: 30%;
   color: white;
   border: none;
@@ -86,14 +86,14 @@ body{
 
 .socials-logo-fb {
   position: absolute;
-  top: 55px;
-  right: 75%;
+  top: 50px;
+  right: 70%;
 }
 
 .socials-logo-tw {
   position: absolute;
-  top: 55px;
-  right: 60%;
+  top: 60px;
+  right: 53%;
 }
 
 .right-div-cont {
